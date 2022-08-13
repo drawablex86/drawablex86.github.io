@@ -1,0 +1,124 @@
+{
+  "main": {
+    "id": "85b3e4639996cdc4",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed3d493337d9f787",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "_posts/2020-03-01-features.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a6ade648962e16c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "0104b2c4e494bada",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {}
+        }
+      },
+      {
+        "id": "5235837025621489",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "7e04c529ac08dfb4",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "a5c11aa083e9d529",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "84e1da8ed38f3d50",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "add5501de0b4e1b5",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "_posts/2020-03-01-features.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "4a4d790ddebd1546",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "_posts/2020-03-01-features.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "16b5b814d9e7d023",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "_posts/2020-03-01-features.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "ed3d493337d9f787",
+  "lastOpenFiles": [
+    "_notes/Public/Welcome to the garden.md",
+    "_notes/Public/Hidden Note.md",
+    "_notes/Public/Credits.md",
+    "_posts/2020-03-01-features.md",
+    "Untitled.md"
+  ]
+}
