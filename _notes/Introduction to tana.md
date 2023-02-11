@@ -1,12 +1,9 @@
 
 ---
-
 title: Introduction to Tana
 feed: show 
 date: 11-05-2022
 permalink: /tana-intro
-tag: "PKM"
-
 ---
 -   Fields
 
