@@ -2,7 +2,7 @@
 ---
 
 title: Introduction to Tana
-feed: hide/show 
+feed: show 
 date: 11-05-2022
 permalink: /tana-intro
 tag: "PKM"
