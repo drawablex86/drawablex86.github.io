@@ -4,6 +4,7 @@ title: Introduction to Tana
 date: 11-01-2023
 permalink: /tana
 ---
+
 -   Fields
 
 	-   Fields are place where can house the meta data for any given tana node
