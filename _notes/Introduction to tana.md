@@ -1,9 +1,8 @@
 
 ---
 title: Introduction to Tana
-feed: show 
-date: 11-05-2022
-permalink: /tana-intro
+date: 11-01-2023
+permalink: /tana
 ---
 -   Fields
 
