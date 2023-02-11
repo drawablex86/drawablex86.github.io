@@ -53,14 +53,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/template.md",
+                "file": "_notes/Introduction to tana.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -126,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Test this thing.md",
+                "file": "_notes/Introduction to tana.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Test this thing.md",
+                "file": "_notes/Introduction to tana.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Test this thing.md"
+                "file": "_notes/Introduction to tana.md"
               }
             }
           }
@@ -187,11 +187,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "34feffdb9b4c37d1",
+  "active": "606cfc21d3036473",
   "lastOpenFiles": [
-    "templates/template.md",
     "_notes/Test this thing.md",
     "_notes/Introduction to tana.md",
+    "templates/template.md",
     "_notes/Public/Welcome to the garden.md",
     "_notes/Public/Credits.md",
     "_notes/Public/Hidden Note.md",

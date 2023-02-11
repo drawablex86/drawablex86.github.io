@@ -1,8 +1,9 @@
-
 ---
 title: Introduction to Tana
+feed: show 
 date: 11-01-2023
-permalink: /tana
+permalink: /tana-intro
+tag: PKM
 ---
 
 -   Fields
