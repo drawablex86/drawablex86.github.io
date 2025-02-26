@@ -78,8 +78,16 @@
     <!-- Optimized CSS loading -->
     <link rel="preload" href="{{ site.baseurl }}/assets/css/style.css" as="style">
     <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style">
+    
+    <!-- Preload critical CSS -->
+    <link rel="preload" href="{{ site.baseurl }}/assets/css/style.css" as="style">
+    <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style">
+    
+    <!-- Critical CSS files -->
     <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" media="print" onload="this.media='all'">
+    
+    <!-- Non-critical CSS files -->
     <link href="{{ site.baseurl }}/assets/css/Util.css" rel="stylesheet" media="print" onload="this.media='all'">
     <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="print" onload="this.media='all'">
 

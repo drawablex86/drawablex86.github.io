@@ -28,7 +28,7 @@ baseurl: ""
 # Website Header, Description, Footer year and text. 
 # If you are deleting this, make sure you remove it from HTML files too 
 heading: Rahul Rajeev # Change this 
-content: Writer, Artist, Design Thinker, Strategist, & Head of Operations at Dreamflakes
+content: Writer, Artist, Design Thinker, Strategist
 copyright:  
   year: © 2022
   msg: Contents under CC-BY-NC 
@@ -120,3 +120,6 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+jekyll-minifier:
+  compress_css: true
+  exclude: ['*.min.css']
