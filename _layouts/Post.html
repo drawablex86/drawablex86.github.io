@@ -41,12 +41,11 @@
     <!-- Preload font files -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
-        rel="stylesheet" media="print" onload="this.media='all'">
-    <!-- Fallback in case JavaScript is disabled -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" 
+          media="print" onload="this.media='all'">
     <noscript>
-        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
-            rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap">
     </noscript>
     {%- if page.title -%}
     <meta content="{{ page.title }}" property="og:title">
@@ -73,6 +72,24 @@
     <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" media="all" class="default" />
     <link href="{{ site.baseurl }}/assets/css/Util.css" rel="stylesheet" media="all" class="default" />
     <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="all" class="default" />
+    
+    <!-- ... other head content ... -->
+    
+    <!-- Optimized CSS loading -->
+    <link rel="preload" href="{{ site.baseurl }}/assets/css/style.css" as="style">
+    <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style">
+    <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="{{ site.baseurl }}/assets/css/Util.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet" media="print" onload="this.media='all'">
+
+    <!-- Fallback for when JavaScript is disabled -->
+    <noscript>
+        <link href="{{ site.baseurl }}/assets/css/style.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/assets/css/Util.css" rel="stylesheet">
+        <link href="{{ site.baseurl }}/assets/css/vendor/Katex.css" rel="stylesheet">
+    </noscript>
 
     <!--[if IE]>
         <link href="/assets/css/ie-target.css" rel="stylesheet" type="text/css"/>
