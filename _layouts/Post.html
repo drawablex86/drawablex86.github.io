@@ -38,10 +38,16 @@
     <meta content="{{ site.url }}/about/" property="article:author">
     <meta property="og:image" content="../assets/img/favicon-32x32.png">
     <meta content="summary_large_image" name="twitter:card">
+    <!-- Preload font files -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <!-- Fallback in case JavaScript is disabled -->
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap"
+            rel="stylesheet">
+    </noscript>
     {%- if page.title -%}
     <meta content="{{ page.title }}" property="og:title">
     <meta content="article" property="og:type">
