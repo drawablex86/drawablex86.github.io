@@ -4,5 +4,5 @@
 
 layout: Post
 permalink: /
-title: Rahul Rajeev | Writer | Artist | Head of Operations - Dreamflakes
+title: Rahul Rajeev | Art | Design | Marketing
 ---
