@@ -19,22 +19,19 @@ function changeIconImgSrc(src) {
 	document.getElementById("theme-toggle-img--mobile").src = src;
 }
 
-if (systemInitiatedDark.matches) {
-	changeIconImgSrc(iconMoon);
-} else {
-	changeIconImgSrc(iconSun);
+// Initialize with light theme if no theme is set
+if (!theme) {
+    document.documentElement.setAttribute('data-theme', 'light');
+    sessionStorage.setItem('theme', 'light');
+    changeIconImgSrc(iconSun);
 }
 
 function prefersColorTest(systemInitiatedDark) {
-  if (systemInitiatedDark.matches) {
-  	document.documentElement.setAttribute('data-theme', 'dark');		
-   	changeIconImgSrc(iconMoon);
-   	sessionStorage.setItem('theme', '');
-  } else {
-  	document.documentElement.setAttribute('data-theme', 'light');
-    changeIconImgSrc(iconSun);
-    sessionStorage.setItem('theme', '');
-  }
+    if (systemInitiatedDark.matches && !sessionStorage.getItem('theme')) {
+        document.documentElement.setAttribute('data-theme', 'light');
+        changeIconImgSrc(iconSun);
+        sessionStorage.setItem('theme', 'light');
+    }
 }
 systemInitiatedDark.addListener(prefersColorTest);
 
