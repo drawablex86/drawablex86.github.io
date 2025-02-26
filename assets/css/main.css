@@ -2422,6 +2422,11 @@ body.has-navbar-fixed-bottom {
 
 .navbar-menu {
   display: none; }
+  .navbar-menu.is-active {
+    display: block;
+    background-color: var(--color-bg-main);
+    box-shadow: 0 8px 16px rgba(10, 10, 10, 0.1);
+    padding: 0.5rem 0; }
 
 .navbar-item,
 .navbar-link {
