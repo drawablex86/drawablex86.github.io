@@ -30,7 +30,7 @@ baseurl: ""
 heading: Rahul Rajeev # Change this 
 content: Writer, Artist, Design Thinker, Strategist
 copyright:  
-  year: © 2022
+  year: © 2025
   msg: Contents under CC-BY-NC 
 
 # Set title and content for private & broken link tooltop
@@ -123,3 +123,31 @@ exclude:
 jekyll-minifier:
   compress_css: true
   exclude: ['*.min.css']
+# Security Settings
+security:
+  # Enable HTTP Strict Transport Security
+  hsts_enabled: true
+  # Enable X-Frame-Options
+  x_frame_options: SAMEORIGIN
+  # Enable X-Content-Type-Options
+  x_content_type: nosniff
+  # Enable X-XSS-Protection
+  x_xss_protection: "1; mode=block"
+  # Enable Referrer-Policy
+  referrer_policy: strict-origin-when-cross-origin
+
+# Sanitization Settings
+sanitization:
+  allowed_html_tags: 
+    - a
+    - b
+    - br
+    - div
+    - em
+    - i
+    - li
+    - ol
+    - p
+    - span
+    - strong
+    - ul

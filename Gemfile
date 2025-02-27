@@ -34,3 +34,7 @@ gem 'jekyll-sitemap'
 gem 'kramdown-math-katex'
 
 gem "webrick", "~> 1.7"
+
+# Security gems
+gem 'rack-protection'
+gem 'secure_headers'

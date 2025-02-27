@@ -3,6 +3,7 @@ GEM
   specs:
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
+    base64 (0.2.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.9)
     cssminify2 (2.0.1)
@@ -73,6 +74,10 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
+    rack (2.2.11)
+    rack-protection (3.2.0)
+      base64 (>= 0.1.0)
+      rack (~> 2.2, >= 2.2.4)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -83,6 +88,7 @@ GEM
       ffi (~> 1.9)
     sassc (2.4.0-x64-mingw32)
       ffi (~> 1.9)
+    secure_headers (7.1.0)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
     thread_safe (0.3.6)
@@ -109,6 +115,8 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tidy
   kramdown-math-katex
+  rack-protection
+  secure_headers
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
